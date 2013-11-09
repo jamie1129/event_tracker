@@ -21,9 +21,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   
   group :development, :test do
-  gem 'sqlite3'
+
 end
 group :production do
+  
   gem 'pg'
 end
 end
